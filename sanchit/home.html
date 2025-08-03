@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+     * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Footer container */
+.i {
+  background-color: black;
+  width: 100%;
+  padding: 90px 20px;
+  color: white;
+}
+
+/* Center footer content */
+.abc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo section */
+.bbb img {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Footer navigation links */
+.ccc a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.ccc a:hover {
+  color: #ccc;
+}
+
+/* Social media section */
+.zza {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.zza a img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.zza p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Newsletter Section */
+.s5 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.s5 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+/* Newsletter Content */
+.zz {
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+.zz h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.za input.l1 {
+  width: 400px;
+  max-width: 90%;
+  height: 45px;
+  padding: 10px;
+  margin: 10px 5px;
+}
+
+.za input.l2 {
+  height: 47px;
+  padding: 0 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .zz h1 {
+    font-size: 16px;
+    padding-top: 0;
+    margin: 0;
+  }
+  .s5 img{
+    height: 300px;
+  }
+
+  .za input.l1,
+  .za input.l2 {
+    width: 90%;
+    max-width: 100%;
+    margin: 5px auto;
+    display: block;
+  }
+
+  .ccc a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .bbb img {
+    margin: 0 auto 20px auto;
+  }
+
+  .zza a img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .zza p {
+    font-size: 12px;
+  }
+}
+
+    </style>
+</head>
+<body>
+        <!-- Footer section start -->
+
+    <div class="s5">
+        <img src="images/newsletter-bg 1.jpg" width="100%">
+      
+        <div class="zz"><h1 >SUBSCRUBE TO OUR NEWESLETTER</h1>
+            <div class="za">
+                <form >
+            <input type="text" placeholder="Enter your email address" class="l1">
+            <input type="submit" value="SUBSCRUBE" class="l2"></form>
+            </div>
+        </div>
+    </div>
+    <div class="i">
+        <div class="abc">
+            <div class="bbb">
+        <a href=""><img src="images/logo_primary 3.png" ></a><br>
+            </div>
+            <div class="ccc">
+        <a href="index.html" >HOME</a>
+        <a href="about.html" >ABOUT</a>
+        <a href="shop.html">SHOP</a>
+        <a href="contact.html">CONTACT</a>
+            </div>
+            <div class="zza">
+                <a href=""><img src="images/facebook-fill (2).png" ></a>
+                <a href=""><img src="images/instagram-line.png" ></a>
+                <a href=""><img src="images/Vector (1).png" ></a><br><br>
+                <br><br><br><br><br>
+                <p >Powerd by Netcoder technology</p>
+            </div>
+        </div>
+        <!-- Footer section end -->
+         
+</body>
+</html>
